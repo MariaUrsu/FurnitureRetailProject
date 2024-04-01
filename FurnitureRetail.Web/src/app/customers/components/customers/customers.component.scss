@@ -1,0 +1,39 @@
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 100px 20px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  
+  a {
+    outline-color: transparent;
+    margin-right: 50px;
+
+  }
+
+  a:link {
+    color: #6900ff;
+  }
+
+  a:visited {
+    color: #a5c300;
+  }
+
+  a:focus {
+    text-decoration: none;
+    background: #bae498;
+  }
+
+  a:hover {
+    text-decoration: none;
+    background: #cdfeaa;
+  }
+
+  a:active {
+    background: #6900ff;
+    color: #cdfeaa;
+  }
+}
